@@ -5,8 +5,12 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/HocDauTu/',
+    base: './',
     plugins: [react(), tailwindcss()],
+    build: {
+      outDir: 'dist',
+      assetsDir: 'assets',
+    },
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
