@@ -1,0 +1,14 @@
+version: 1
+builds:
+  - name: Install dependencies
+    command: bun install
+  - name: Build
+    command: bun run build
+services:
+  - type: web
+    name: hoc-dau-tu
+    env: static
+    plan: free
+    buildCommand: bun run build
+    staticPublishPath: ./dist
+    autoDeploy: true
