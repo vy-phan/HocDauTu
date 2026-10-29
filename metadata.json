@@ -1,0 +1,6 @@
+{
+  "name": "Buffett Way - Game Mô Phỏng Đầu Tư Giá Trị",
+  "description": "Web game mô phỏng đầu tư chứng khoán theo triết lý đầu tư giá trị của Warren Buffett. Phân tích tài chính, lọc tin tức thị trường và xây dựng danh mục sinh lời dài hạn.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
